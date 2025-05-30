@@ -1,5 +1,5 @@
 #include <stdio.h>
-int is_prime(unsigned int n)
+unsigned int is_prime(unsigned int n)
 {
   unsigned int i;
   i = 2;

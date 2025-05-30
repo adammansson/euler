@@ -8,7 +8,7 @@ int main()
   unsigned short s;
   unsigned short c;
   char a[11];
-  fp = fopen("p13.in", "r");
+  fp = fopen("p13.txt", "r");
   fread(b, 1, 5100, fp);
   fclose(fp);
   b[5100] = '\0';
